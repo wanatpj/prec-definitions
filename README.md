@@ -19,4 +19,4 @@ https://en.wikipedia.org/wiki/Primitive_recursive_function
     - $g: \mathbb{N}^n \rightarrow \mathbb{N}$
     - $h: \mathbb{N}^{n+2} \rightarrow \mathbb{N}$
   - definition
-    - $f: \mathbb{N}^{n+1} \rightarrow \mathbb{N} = Prec(g, h) :=  f(x_1, ..., x_n, 0)  = g(x_1, ..., x_n) \textrm{ and } f(x_1, ..., x_n, S(x_{n+1}))  = h(f(x), *x) $
+    - $f: \mathbb{N}^{n+1} \rightarrow \mathbb{N} = PRec(g, h) :=  f(x_1, ..., x_n, 0)  = g(x_1, ..., x_n) \textrm{ and } f(x_1, ..., x_n, S(x_{n+1}))  = h(f(x), *x) $
