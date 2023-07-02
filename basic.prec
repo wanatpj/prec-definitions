@@ -1,0 +1,12 @@
+extern O_[n]
+extern I_[n:k]
+extern S
+
++ := PRec(I_1, Comp(S, I_3:1))
+* := PRec(O_1, Comp(+, I_3:1, I_3:3))
+** := PRec(Comp(S, O_1), Comp(*, I_3:1, I_3:3))
+pre := PRec(O_0, I_2:2)
+- := PRec(I_1, Comp(prev, I_3:1))
+sgn := PRec(O_0, Comp(S, O_2))
+neg := PRec(Comp(S, O_0), O_2)
+if := Comp(+, Comp(*, I_3:2, Comp(sgn, I_3:1)), Comp(*, I_3:3, Comp(neg, I_3:1)))
